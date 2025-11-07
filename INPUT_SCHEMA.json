@@ -7,9 +7,11 @@
     "startUrl": {
       "title": "Start URL",
       "type": "string",
-      "description": "URL to scrape",
+      "description": "Enter the URL you want to scrape",
+      "editor": "textfield",
       "default": "https://crawlee.dev/"
     }
   },
   "required": ["startUrl"]
 }
+
