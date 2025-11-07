@@ -1,5 +1,5 @@
 import { Actor } from 'apify';
-import fetch from 'node-fetch';
+// no need to import fetch — Node 18+ already has it
 import * as cheerio from 'cheerio';
 
 await Actor.main(async () => {
