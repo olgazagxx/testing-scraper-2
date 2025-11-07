@@ -1,0 +1,15 @@
+{
+  "title": "Testing Scraper Input",
+  "description": "Input configuration for your scraper actor.",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "startUrl": {
+      "title": "Start URL",
+      "type": "string",
+      "description": "URL to scrape",
+      "default": "https://crawlee.dev/"
+    }
+  },
+  "required": ["startUrl"]
+}
