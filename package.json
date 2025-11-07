@@ -1,1 +1,12 @@
+{
+  "name": "testing-scraper-2",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "apify": "^3.0.0"
+  },
+  "scripts": {
+    "start": "node src/main.js"
+  }
+}
 
