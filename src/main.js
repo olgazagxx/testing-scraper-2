@@ -1,5 +1,4 @@
 import { Actor } from 'apify';
-// no need to import fetch — Node 18+ already has it
 import * as cheerio from 'cheerio';
 
 await Actor.main(async () => {
@@ -7,7 +6,7 @@ await Actor.main(async () => {
     const { startUrl } = input;
 
     console.log(`Fetching: ${startUrl}`);
-    const response = await fetch(startUrl);
+    const response = await fetch(startUrl);  // works natively
     const html = await response.text();
     const $ = cheerio.load(html);
 
