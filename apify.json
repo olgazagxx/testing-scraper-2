@@ -1,0 +1,9 @@
+{
+  "name": "testing-scraper-2",
+  "version": "0.0.1",
+  "buildTag": "latest",
+  "env": {
+    "NODE_VERSION": "18"
+  },
+  "main": "src/main.js"
+}
